@@ -1,5 +1,5 @@
 #Mengira isipadu piramid bertapak segi empat sama
-def kira_isipadu_piramid(a, b):
+def kira_isipadu_piramid(sisi, tinggi):
 isipadu_piramid = (1/3) * (sisi * sisi) * tinggi
 return (isipadu_piramid)
 
@@ -9,4 +9,4 @@ sisi = int(input("Masukkan ukuran sisi tapak piramid: "))
 tinggi = int(input("Masukkan tinggi piramid: "))
 
 # Pemanggilan function dan pemulangan nilai
-print("isipadu piramid = ", kira_isipadu_piramid(a, b))
+print("Isi Padu Piramid = ", Kira_Isipadu_Piramid(a, b))
